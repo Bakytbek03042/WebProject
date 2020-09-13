@@ -1,0 +1,94 @@
+body {
+    font-family: "SFNS Display";
+    margin: 0;
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Header */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.main__header {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    height: 96px;
+    align-items: center;
+}
+
+.image__title__kolesa {
+    width: 180px;
+    height: 35px;
+    padding-right: 30px;
+}
+
+.nav {
+    display: flex;
+    height: 96px;
+    align-items: center;
+    
+}
+
+.nav__link {
+    padding-right: 20px;
+    color: blue;
+}
+
+.nav__link:last-child {
+    padding-right: 0;
+}
+
+.nav__link:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.give__ad {
+    display: flex;
+    width: 200px;
+    height: 35px;
+    align-items: center;
+    border: 1px solid #e3e3e3;
+    text-decoration: none;
+    transition: .1s linear;
+    padding: 5px 15px 5px 15px;
+}
+
+.img__plus {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 5px;
+}
+
+.ad {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    text-decoration: none;
+
+    color: blue;
+}
+
+.give__ad:hover {
+    border-color: #b7b7b7;
+}
